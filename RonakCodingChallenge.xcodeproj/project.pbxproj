@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		73C8BF1C2BDC562900AE839E /* RonakCodingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF1B2BDC562900AE839E /* RonakCodingChallengeApp.swift */; };
-		73C8BF1E2BDC562900AE839E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF1D2BDC562900AE839E /* ContentView.swift */; };
 		73C8BF202BDC562A00AE839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C8BF1F2BDC562A00AE839E /* Assets.xcassets */; };
 		73C8BF232BDC562A00AE839E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C8BF222BDC562A00AE839E /* Preview Assets.xcassets */; };
+		73C8BF2B2BDC565700AE839E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 73C8BF2A2BDC565700AE839E /* ComposableArchitecture */; };
+		73C8BF2D2BDC594000AE839E /* PostListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF2C2BDC594000AE839E /* PostListFeature.swift */; };
+		73C8BF302BDC59E300AE839E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF2F2BDC59E300AE839E /* Post.swift */; };
+		73C8BF332BDC5A4800AE839E /* PostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF322BDC5A4800AE839E /* PostClient.swift */; };
+		73C8BF362BDC5A9400AE839E /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 73C8BF352BDC5A9400AE839E /* Networking */; };
+		73C8BF392BDC5AD500AE839E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF382BDC5AD500AE839E /* Endpoints.swift */; };
+		73C8BF3C2BDC5D8400AE839E /* mock_post_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 73C8BF3B2BDC5D8400AE839E /* mock_post_response.json */; };
+		73C8BF3E2BDC5DDD00AE839E /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF3D2BDC5DDD00AE839E /* DataLoader.swift */; };
+		73C8BF402BDC60CB00AE839E /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF3F2BDC60CB00AE839E /* PostListView.swift */; };
+		73C8BF442BDC67ED00AE839E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BF432BDC67ED00AE839E /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73C8BF182BDC562900AE839E /* RonakCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RonakCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C8BF1B2BDC562900AE839E /* RonakCodingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonakCodingChallengeApp.swift; sourceTree = "<group>"; };
-		73C8BF1D2BDC562900AE839E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73C8BF1F2BDC562A00AE839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C8BF222BDC562A00AE839E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73C8BF2C2BDC594000AE839E /* PostListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListFeature.swift; sourceTree = "<group>"; };
+		73C8BF2F2BDC59E300AE839E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		73C8BF322BDC5A4800AE839E /* PostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostClient.swift; sourceTree = "<group>"; };
+		73C8BF382BDC5AD500AE839E /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		73C8BF3B2BDC5D8400AE839E /* mock_post_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_post_response.json; sourceTree = "<group>"; };
+		73C8BF3D2BDC5DDD00AE839E /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		73C8BF3F2BDC60CB00AE839E /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		73C8BF432BDC67ED00AE839E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C8BF362BDC5A9400AE839E /* Networking in Frameworks */,
+				73C8BF2B2BDC565700AE839E /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +69,16 @@
 		73C8BF1A2BDC562900AE839E /* RonakCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				73C8BF3A2BDC5D2B00AE839E /* Resources */,
+				73C8BF372BDC5AC500AE839E /* Utility */,
+				73C8BF312BDC5A2B00AE839E /* Clients */,
+				73C8BF2E2BDC59AD00AE839E /* Model */,
 				73C8BF1B2BDC562900AE839E /* RonakCodingChallengeApp.swift */,
-				73C8BF1D2BDC562900AE839E /* ContentView.swift */,
 				73C8BF1F2BDC562A00AE839E /* Assets.xcassets */,
 				73C8BF212BDC562A00AE839E /* Preview Content */,
+				73C8BF2C2BDC594000AE839E /* PostListFeature.swift */,
+				73C8BF3F2BDC60CB00AE839E /* PostListView.swift */,
+				73C8BF432BDC67ED00AE839E /* PostDetailView.swift */,
 			);
 			path = RonakCodingChallenge;
 			sourceTree = "<group>";
@@ -65,6 +89,39 @@
 				73C8BF222BDC562A00AE839E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73C8BF2E2BDC59AD00AE839E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73C8BF2F2BDC59E300AE839E /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C8BF312BDC5A2B00AE839E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				73C8BF322BDC5A4800AE839E /* PostClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		73C8BF372BDC5AC500AE839E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				73C8BF3D2BDC5DDD00AE839E /* DataLoader.swift */,
+				73C8BF382BDC5AD500AE839E /* Endpoints.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		73C8BF3A2BDC5D2B00AE839E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73C8BF3B2BDC5D8400AE839E /* mock_post_response.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,10 @@
 			dependencies = (
 			);
 			name = RonakCodingChallenge;
+			packageProductDependencies = (
+				73C8BF2A2BDC565700AE839E /* ComposableArchitecture */,
+				73C8BF352BDC5A9400AE839E /* Networking */,
+			);
 			productName = RonakCodingChallenge;
 			productReference = 73C8BF182BDC562900AE839E /* RonakCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,10 @@
 				Base,
 			);
 			mainGroup = 73C8BF0F2BDC562900AE839E;
+			packageReferences = (
+				73C8BF292BDC565700AE839E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				73C8BF342BDC5A9400AE839E /* XCRemoteSwiftPackageReference "Networking" */,
+			);
 			productRefGroup = 73C8BF192BDC562900AE839E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C8BF3C2BDC5D8400AE839E /* mock_post_response.json in Resources */,
 				73C8BF232BDC562A00AE839E /* Preview Assets.xcassets in Resources */,
 				73C8BF202BDC562A00AE839E /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C8BF1E2BDC562900AE839E /* ContentView.swift in Sources */,
+				73C8BF332BDC5A4800AE839E /* PostClient.swift in Sources */,
+				73C8BF302BDC59E300AE839E /* Post.swift in Sources */,
+				73C8BF3E2BDC5DDD00AE839E /* DataLoader.swift in Sources */,
+				73C8BF442BDC67ED00AE839E /* PostDetailView.swift in Sources */,
+				73C8BF2D2BDC594000AE839E /* PostListFeature.swift in Sources */,
 				73C8BF1C2BDC562900AE839E /* RonakCodingChallengeApp.swift in Sources */,
+				73C8BF392BDC5AD500AE839E /* Endpoints.swift in Sources */,
+				73C8BF402BDC60CB00AE839E /* PostListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +414,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		73C8BF292BDC565700AE839E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.3;
+			};
+		};
+		73C8BF342BDC5A9400AE839E /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vinodh06/Networking.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73C8BF2A2BDC565700AE839E /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73C8BF292BDC565700AE839E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		73C8BF352BDC5A9400AE839E /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73C8BF342BDC5A9400AE839E /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 73C8BF102BDC562900AE839E /* Project object */;
 }
