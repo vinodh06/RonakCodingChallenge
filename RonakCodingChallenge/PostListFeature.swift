@@ -36,7 +36,7 @@ struct PostListFeature {
                 return .none
 
             case .loadPosts:
-                guard !state.isRequestInFlight, state.pageNo < 5 else { return .none }
+                guard !state.isRequestInFlight, state.pageNo < 10 else { return .none }
                 if state.pageNo == 0 {
                     state.isRequestInFlight = true
                     return .run { send in
